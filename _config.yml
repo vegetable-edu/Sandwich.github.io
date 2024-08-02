@@ -7,9 +7,9 @@ favicon: https://pianfan.github.io/images/favicon.ico
 navigation:
   - name: 首页
     url: /
-  - name: 关于
+  - name: 简历
     url: /about
-  - name: 分类
+  - name: 博客
     url: /tags
 
 paginate: 8
