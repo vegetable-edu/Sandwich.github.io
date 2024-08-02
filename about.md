@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 张钰枫
+title: 张钰枫(Yufeng Zhang)
 permalink: /about/
 ---
 
