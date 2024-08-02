@@ -7,6 +7,8 @@ permalink: /about/
 - 电话：17887261915
 - 邮箱：zhangyufeng0712@gmail.com
 
+---
+
 ## 教育背景
 
 **2022年08月——2027年06月&ensp;&ensp;&ensp;扬州大学（校友会：66名&ensp;&ensp;软科：82名）**
@@ -40,8 +42,6 @@ permalink: /about/
 1. **2024年 ICME CCF-B会议** ：The IEEE International Conference on Multimedia & Expo 2024
 
 **4.软件著作权：**
-
-#### 共授权2篇软件著作权
 
 1.**登记号：2023SR1375374**&nbsp;&nbsp;开元拾遗——传统戏剧文化虚拟交互宇宙
 
