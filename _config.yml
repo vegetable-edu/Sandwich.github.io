@@ -18,16 +18,16 @@ excerpt_separator: <!-- more -->
 
 footer-links:
   zhihu: 
-  email: xiongyunhan@outlook.com
+  email: zhangyufeng0712@gmail.com
   facebook:
-  github: pianfan
+  github: Peninsulazyf
   rss: # just type anything here for a working RSS icon
   twitter: 
   youtube:
 
-footer-text: Copyright (c) 2024 Pianfan
+footer-text: Copyright (c) 2024 Peninsulazyf
 
-url: https://pianfan.github.io
+url: https://peninsulazyf.github.io
 
 permalink: /:title/
 paginate_path: /page:num/
