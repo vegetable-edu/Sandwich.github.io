@@ -16,7 +16,7 @@ permalink: /about/
 **信息工程学院**&ensp;&ensp;计算机科学与技术&ensp;/&ensp;**创新创业学院**&ensp;&ensp;人工智能卓越班
 
 - **加权均分**：80.0分&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;**成绩排名**：待更新...
-- **代表奖项**：&ensp;&ensp;待更新...
+- **代表奖项**：&ensp;待更新...
   
 ---
 
@@ -25,9 +25,9 @@ permalink: /about/
 
 **实习生 科研助理**&ensp;&ensp;&ensp;&ensp;导师：朱聪聪，陈景润&ensp;&ensp;&ensp;&ensp;多模态大模型，计算机视觉
 
-[研究内容] &ensp;&ensp;待更新...
+[研究内容] &ensp;待更新...
 
-[研究成果] &ensp;&ensp;待更新...
+[研究成果] &ensp;待更新...
 
 ---
 ## 学术成果
@@ -81,9 +81,9 @@ permalink: /about/
   
   **开元拾遗——传统戏剧文化虚拟交互宇宙**
   
-  [项目内容]&ensp;&ensp;本项目基于3D Gaussian Splatting和Unity游戏引擎构建了可渲染戏曲元宇宙场景，基于DINet和3D Max引擎构建了高保真戏曲人物。我全程负责项目开发工作，重点参与研究三维人脸重建算法，并合作研发了MAR模型，在多个数据集上达到了SOTA水平。
+  [项目内容]&ensp;本项目基于3D Gaussian Splatting和Unity游戏引擎构建了可渲染戏曲元宇宙场景，基于DINet和3D Max引擎构建了高保真戏曲人物。我全程负责项目开发工作，重点参与研究三维人脸重建算法，并合作研发了MAR模型，在多个数据集上达到了SOTA水平。
 
-  [项目成果]&ensp;&ensp;一项科技查新报告，两篇软件著作权，七项创新创业类获奖，若干作品著作权。
+  [项目成果]&ensp;一项科技查新报告，两篇软件著作权，七项创新创业类获奖，若干作品著作权。
 
 <br/>
 
@@ -91,9 +91,9 @@ permalink: /about/
 
   **SecuVisor——监控场景下的人脸反欺骗系统**
 
-  [项目内容]&ensp;&ensp;待更新...
+  [项目内容]&ensp;待更新...
 
-  [项目成果]&ensp;&ensp;待更新...
+  [项目成果]&ensp;待更新...
 
 ---
 
