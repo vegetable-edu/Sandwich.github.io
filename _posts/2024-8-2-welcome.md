@@ -2,7 +2,6 @@
 layout: post
 title: "欢迎来到我的个人主页！"
 date:   2024-8-2
-tags: [web]
 comments: true
 author: YufengZhang
 ---
