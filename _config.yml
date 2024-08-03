@@ -9,8 +9,6 @@ navigation:
     url: /
   - name: 简历
     url: /about
-  - name: 博客
-    url: /tags
 
 paginate: 8
 
