@@ -5,7 +5,7 @@ avatar: https://peninsulazyf.github.io/images/avatar.png
 favicon: https://peninsulazyf.github.io/images/kapi.ico
 
 navigation:
-  - name: 首页
+  - name: 博客
     url: /
   - name: 简历
     url: /about
