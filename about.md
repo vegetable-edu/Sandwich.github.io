@@ -4,6 +4,8 @@ title: 张钰枫👨‍💻(Yufeng Zhang)
 permalink: /about/
 ---
 
+<img align="right" src="https://peninsulazyf.github.io/images/证件照.jpg" width=100 height=144 />
+
 **电话：** 17887261915
 
 **邮箱：** <zhangyufeng0712@gmail.com>
@@ -12,6 +14,7 @@ permalink: /about/
 
 **GitHub主页：** <https://github.com/Peninsulazyf>
 
+
 ## ==🏢教育背景==
 
 **2022年08月——2027年06月&ensp;&ensp;&ensp;扬州大学（校友会：66名&ensp;&ensp;软科：82名）**
@@ -19,6 +22,7 @@ permalink: /about/
 **信息工程学院**&ensp;&ensp;计算机科学与技术&ensp;/&ensp;**创新创业学院**&ensp;&ensp;人工智能卓越班
 
 - **加权均分**：80.0分&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;**成绩排名**：待更新...
+
   
 ---
 
