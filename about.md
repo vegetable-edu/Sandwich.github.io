@@ -1,13 +1,27 @@
 ---
 layout: page
-title: 张钰枫(Yufeng Zhang)
+title: 张钰枫👨‍💻(Yufeng Zhang)
 permalink: /about/
 ---
 
-- 电话：17887261915
-- 邮箱：zhangyufeng0712@gmail.com
-
----
+<table>
+	<tr style="height: 50px;">
+		<td style="font-size: 1.8em;"><strong>张钰枫👨‍💻</strong></td>
+		<td style="font-size: 1.5em;"><strong></strong></td>
+		<td rowspan="5">
+			<img src="https://peninsulazyf.github.io/images/证件照.jpg" height="140" alt="">
+		</td>
+	</tr>
+	<tr>
+		<td>电话：17887261915</td>
+		<td>邮箱：<a href="mailto:zhangyufeng0712@gmail.com">zhangyufeng0712@gmail.com</a></td>
+	</tr>
+	<tr>
+		<td><a href="https://peninsulazyf.github.io/">个人主页</a></td>
+		<td><a href="https://github.com/Peninsulazyf">GitHub主页</a></td>
+	</tr>
+</table>
+<hr/>
 
 ## 教育背景
 
