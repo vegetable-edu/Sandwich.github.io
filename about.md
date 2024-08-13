@@ -4,7 +4,7 @@ title: 张钰枫👨‍💻(Yufeng Zhang)
 permalink: /about/
 ---
 
-<img align="right" src="https://peninsulazyf.github.io/images/证件照.jpg" width=100 height=144 />
+<img align="right" src="https://peninsulazyf.github.io/images/证件照.jpg" width=150 height=216 />
 
 **电话：** 17887261915
 
