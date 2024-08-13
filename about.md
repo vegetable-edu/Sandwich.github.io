@@ -19,7 +19,6 @@ permalink: /about/
 **信息工程学院**&ensp;&ensp;计算机科学与技术&ensp;/&ensp;**创新创业学院**&ensp;&ensp;人工智能卓越班
 
 - **加权均分**：80.0分&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;**成绩排名**：待更新...
-- **代表奖项**：待更新...
   
 ---
 
