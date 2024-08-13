@@ -17,7 +17,7 @@ permalink: /about/
 
 ## ==🏢教育背景==
 
-<h4 style="display: flex;justify-content: space-between;">
+<h4 style="display: flex;justify-content: space-between; color: black;">
 <span>扬州大学（校友会：66名&ensp;&ensp;软科：82名）</span> <span>2022年08月——2027年06月</span>
 </h4>
 
@@ -30,7 +30,7 @@ permalink: /about/
 ---
 
 ## ==💻科研与实习经历==
-<h4 style="display: flex;justify-content: space-between;">
+<h4 style="display: flex;justify-content: space-between; color: black;">
 <span>中国科学技术大学苏州高等研究院 科学计算与人工智能实验室</span> <span>2024年07月——2025年07月</span>
 </h4>
 
@@ -88,7 +88,7 @@ permalink: /about/
 ---
 
 ## ==🚀项目经历==
-<h4 style="display: flex;justify-content: space-between;">
+<h4 style="display: flex;justify-content: space-between; color: black;">
 <span>📌 江苏省大学生创新创业训练计划项目-负责人</span> <span>2023年06月——2024年06月</span>
 </h4>
   
@@ -100,7 +100,7 @@ permalink: /about/
 
 <br/>
 
-<h4 style="display: flex;justify-content: space-between;">
+<h4 style="display: flex;justify-content: space-between; color: black;">
 <span>📌 江苏省大学生创新创业训练计划项目-第二作者</span> <span>2024年06月——2025年06月</span>
 </h4>
 
