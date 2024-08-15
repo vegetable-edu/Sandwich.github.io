@@ -10,4 +10,4 @@
 
 - 2024/08/06：今天撰写了[《Wolf详解》](https://peninsulazyf.github.io/Wolf/)，从此视频字幕也有了benchmark。
 
-- 2024/08/14：今天撰写了[《VideoPrism详解》](https://peninsulazyf.github.io/Wolf/)，Google的工作真的太棒啦！
+- 2024/08/14：今天撰写了[《VideoPrism详解》](https://peninsulazyf.github.io/VideoPrism/)，Google的工作真的太棒啦！
