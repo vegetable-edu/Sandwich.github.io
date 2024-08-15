@@ -36,15 +36,11 @@ VideoPrism是一款通用的**视频编码器**，通过从单个冻结模型生
 
 ![2](https://peninsulazyf.github.io/images/C2.png)
 
-</br>
-
 - 针对这种混合数据，设计了一种独特的**两阶段训练方法**。
 
 > **阶段一：** 利用 **video-language对比学习** 来获取语义 *（其实有点好奇为啥论文中写的是video-language，而不是video-text）* 。
 >
 > **阶段二：** 通过 **global-local distillation**（全局-局部蒸馏）和 **token shuffling**（token洗牌）来改进masked video modeling。
-
-</br>
 
 - 在33个不同benchmarks上对四大类理解任务进行了全面的评估，VideoPrism的表现在31个benchmarks中明显优于现有的ViFMs（Video foundation models，视频基础模型），展现了VideoPrism的强大泛化能力。
 
@@ -75,8 +71,6 @@ VideoPrism模型源于standard Vision Transformer(ViT)，并在ViViT之后进行
 在计算对比损失之前，Video Encoder的特征会通过 **muti-head attention pooler（MAP）** 进行聚合。
 
 借助**对比学习**，使用所有的视频文本对，将视频编码器和文本编码器**对齐**：在一个mini-batch中最小化所有video-text pairs的**交叉熵损失**。
-
-</br>
 
 **阶段二：Masked Video Modeling**
 
