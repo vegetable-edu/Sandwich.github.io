@@ -4,13 +4,13 @@ title: Bingzhi Xu👨‍💻
 permalink: /about/
 ---
 
-<img align="right" src="https://Sanwich.github.io/images/id.jpg" width=120 height=173  style="max-width: 100%;">
+<img align="right" src="https://vegetable-edu.github.io/Sandwich.github.io/images/id.jpg" width=120 height=173  style="max-width: 100%;">
 
 **电话：** 1365555....
 
 **邮箱：** <iagorancellmindy@gmail.com>
 
-**个人主页：** <https://Sandwich.github.io/>
+**个人主页：** <https://vegetable-edu.github.io/Sandwich.github.io/>
 
 **GitHub主页：** <https://github.com/vegetable-edu>
 
