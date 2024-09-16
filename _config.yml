@@ -1,8 +1,8 @@
-name: "张钰枫"
-description: "多模态大模型 计算机视觉 深度学习"
+name: "Sandwich"
+description: "自然语言处理 深度学习"
 
-avatar: https://peninsulazyf.github.io/images/avatar.png
-favicon: https://peninsulazyf.github.io/images/kapi.ico
+avatar: https://vegetable-edu.github.io/Sandwich.github.io/images/avatar.png
+favicon: https://vegetable-edu.github.io/Sandwich.github.io/images/kapi.ico
 
 navigation:
   - name: 博客
@@ -18,7 +18,7 @@ excerpt_separator: <!-- more -->
 
 footer-links:
   zhihu: 
-  email: zhangyufeng0712@gmail.com
+  email: iagorancellmindy@gmail.com
   facebook:
   github: Peninsulazyf
   rss: # just type anything here for a working RSS icon
