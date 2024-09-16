@@ -4,7 +4,7 @@ title: Bingzhi Xu👨‍💻
 permalink: /about/
 ---
 
-<img align="right" src="https://peninsulazyf.github.io/images/证件照.jpg" width=120 height=173  style="max-width: 100%;">
+<img align="right" src="https://peninsulazyf.github.io/images/id.jpg" width=120 height=173  style="max-width: 100%;">
 
 **电话：** 1365555....
 
