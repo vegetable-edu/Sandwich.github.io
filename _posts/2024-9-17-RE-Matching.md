@@ -1,8 +1,5 @@
 【论文阅读】RE-Matching: A Fine-Grained Semantic Matching Method for Zero-Shot Relation Extraction
-92/100
-发布文章
-sand_wich
-未选择文件
+
 # 前言
 标题：RE-Matching: A Fine-Grained Semantic Matching Method for Zero-Shot Relation Extraction
 会议：ACL2023
@@ -131,7 +128,8 @@ github：https://github.com/zweny/RE-Matching
 少与关系无关的特征对上下文匹配的负面影响。
 细粒度语义匹配：指将整体的句子级别的相似度分解为更细粒度的相似度，如词汇级别或短语级别的相似度，从而更准确地捕捉文本之间的语义关系。细粒度语义匹配通常需要对文本进行编码和交互两个步骤。编码步骤是将文本转换为数值向量（也称为嵌入），交互步骤是利用不同的机制（如点积、余弦、注意力等）来计算文本向量之间的相似度分数。细粒度语义匹配在自然语言处理中有很多应用，如问答、文本蕴含、关系抽取等。
 显示建模：“{实体1}是{实体2}的创始人”，然后用这个模式去匹配文本中的信息
-在这里插入图片描述
+![image](https://github.com/user-attachments/assets/300da78c-6d9c-47cf-91dc-908215efd7ba)
+
 Figure1：一个关系数据匹配模式的例子。输入的句子包含一个给定的实体对，该实体对应该匹配对应的上位概念(通常是实体类型)。上下文描述了实体之间的关系，包含了与关系无关的冗余信息，在进行匹配时应该被忽略。
 关系属于有独特的匹配模式。这是一般的匹配方法没有明确考虑到的（fig 1）：输入中的实体应该与他们在描述中的上位概念完全匹配，公司就与公司匹配，地点就与地点匹配。冗余信息则需要过滤。不过问题是：冗余成分在匹配时由于缺乏显示注释，模型要学会识别他们很困难。
 方法介绍
@@ -155,17 +153,19 @@ Figure1：一个关系数据匹配模式的例子。输入的句子包含一个�
 行预测。
 
 细粒度语义匹配方法
+
 [传统的语义匹配方法通常将编码和匹配视为一个整体的过程。这些方法主要依赖于预定义的规则、知识图谱、本体或者语料库来进行语义匹配]
 在这些方法中，文本首先被编码为数值向量（也称为嵌入），然后这些向量被用来计算文本之间的相似度。然而，这些方法通常没有显式地考虑文本中的细粒度信息，如词汇级别或短语级别的相似度，因此可能无法准确地捕捉文本之间的语义关系。此外，这些方法的性能受到手动定义规则的影响，对非线性灰度失真的抵抗力较弱，匹配效率和准确性较差。
 Figure2：
-在这里插入图片描述
+![image](https://github.com/user-attachments/assets/d245b3c1-1152-4f84-ba2d-4880c0dfac58)
 ■左侧: 输入实例与关系描述分开编码。编码模块负责提取输入实例和关系描述中的实体和
 上下文信息， 将其编码为固定长度的表示，以便进行后续的细粒度匹配。
 ■中间:实体和上下文匹配计算相似度。将句子级别的相似度分解为实体匹配分数和上下文匹配分数。
 ■右侧:设计一个特征蒸馏模块减少无关组件对上下文匹配的影响。
 
 输入-描述编码模块
-在这里插入图片描述
+![image](https://github.com/user-attachments/assets/3d32e6a2-a03e-4151-a3d1-417fc854617f)
+
 输入实例与关系描述
 分开编码。
 1.将实例和候选 描述中的实体提取出来。将其编码为固定长度向量。
@@ -181,17 +181,24 @@ Figure2：
 ■基于规则的模板填充
 ■输入实例编码器:输入实例xi = {W1, we… wn}用4个特殊token :“[Eh], [\Eh], [Et], [\Et]"。
 插入到头实体ei1和尾实体ei2中。通过隐藏层+MaxPool得到头尾实体表示。
-在这里插入图片描述
-上下文关系特征蒸馏
-在这里插入图片描述
+![image](https://github.com/user-attachments/assets/d869bc3e-cfb8-46dd-94fc-b33ff422da91)
 
-在这里插入图片描述
+上下文关系特征蒸馏
+![image](https://github.com/user-attachments/assets/d64204b8-08cf-485d-8b7c-03465ae9fd6f)
+
+
+![image](https://github.com/user-attachments/assets/5111b6b5-2ab3-4e11-8b4a-1ae48fdf7faa)
+
 梯度反转层：
-在这里插入图片描述
+![image](https://github.com/user-attachments/assets/5613c391-681a-490f-a301-10a6eb721412)
+
+
 关系特征蒸馏层
-在这里插入图片描述
+
+![image](https://github.com/user-attachments/assets/774be766-6442-4449-88d3-4d384b85a45f)
 细粒度匹配训练：
-在这里插入图片描述
+![image](https://github.com/user-attachments/assets/999e4588-e31a-44a2-b7a5-0f8708a9c94d)
+
 
 实验
 数据集:
@@ -204,14 +211,14 @@ Figure2：
 模型: R-BERT、ESIM、ZS-BERT、 PromptMatch、 REPrompt
 使用Bert-base-uncased作为输入实例编码器，fixed sentence-Bert作为关系描述编码器
 实验一：
-在这里插入图片描述
+![image](https://github.com/user-attachments/assets/1ecd3653-3940-4684-80b0-7b031488d80e)
+
+
 1.ZS-Bert为ZeroRE,但siamese. scheme限制了输入和关系描述之间的细粒度交互，因此性能次优。
 2.PromptMatch使用全编码方案，可以通过自注意力隐式建模细粒度交互。但所提出的方法仍然能够超越它。一个可能的原因是关系匹配模式作为一种归纳偏差，缓解了对训练集中所见关系的过拟合，因此我们的模型具有更好的泛化性。
 消融实验：
-在这里插入图片描述
+
+![image](https://github.com/user-attachments/assets/ea6937b4-d637-474d-b686-1aedc68ffdcf)
 如果去除上下文蒸馏模块(w/o Proi) ，匹配性能下降。说明上下文中不相关的关系信息会干扰关系数据的匹配，而在蒸馏模块中进行投影可以有效降低这种影响。
 实体信息在在关系数据(见w/o Ent)中发挥着重要的作用。显式地建模实体与其上位概念之间的匹配，显著地提高了模型的性能。
 作为两个至关重要的组成部分，当上下文蒸馏和实体匹配都被移除(即w/oboth)时，匹配就退化为句子级别的匹配，性能会受到严重影响
-
-Markdown 已选中 4565 字数 102 行数 当前行 102, 当前列 0HTML 3508 字数 86 段落
-超链接 – Ctrl+Shift+L
