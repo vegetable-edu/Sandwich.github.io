@@ -25,9 +25,9 @@ footer-links:
   twitter: 
   youtube:
 
-footer-text: Copyright (c) 2024 Peninsulazyf
+footer-text: Copyright (c) 2024 
 
-url: https://peninsulazyf.github.io
+url: https://vegetable-edu.github.io
 
 permalink: /:title/
 paginate_path: /page:num/
